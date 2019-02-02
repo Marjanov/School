@@ -63,8 +63,13 @@ public class Student {
     }
 
     public void info() {
-        System.out.println("First Name : " + this.firstName);
-        System.out.println("Last Name : " + this.lastName);
-        System.out.println("Year of Birth : " + this.yearOfBirth);
+        System.out.println("First Name: " + this.firstName);
+        System.out.println("Last Name: " + this.lastName);
+        System.out.println("Year of Birth: " + this.yearOfBirth);
+        System.out.println("Course name: " + this.course.getName());
+        System.out.println("Course number of classes: " + this.course.getNumberOfClasses());
+        System.out.println("Process tact: " + this.computer.getProcessTact());
+        System.out.println("Memory: " + this.computer.getMemory());
+        System.out.println("Hard driver: " + this.computer.getHardDrive());
     }
 }

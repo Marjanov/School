@@ -30,4 +30,36 @@ public class Computer {
      this.memory=24.5;
      
     }
+
+    public String getOperatingSystem() {
+        return operatingSystem;
+    }
+
+    public void setOperatingSystem(String operatingSystem) {
+        this.operatingSystem = operatingSystem;
+    }
+
+    public double getProcessTact() {
+        return processTact;
+    }
+
+    public void setProcessTact(double processTact) {
+        this.processTact = processTact;
+    }
+
+    public double getMemory() {
+        return memory;
+    }
+
+    public void setMemory(double memory) {
+        this.memory = memory;
+    }
+
+    public int getHardDrive() {
+        return hardDrive;
+    }
+
+    public void setHardDrive(int hardDrive) {
+        this.hardDrive = hardDrive;
+    }
 }
