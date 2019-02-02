@@ -13,6 +13,16 @@ public class Student {
     private String firstName;
     private String lastName;
     private int yearOfBirth;
+    private Course course;
+    private Computer computer;
+
+    public Computer getComputer() {
+        return computer;
+    }
+ 
+    public Course getCourse() {
+        return course;
+    }
 
     public Student() {
         this.firstName="Mihailo";
