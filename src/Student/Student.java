@@ -10,12 +10,14 @@ package Student;
  * @author qa-popodne
  */
 public class Student {
-
     private String firstName;
     private String lastName;
     private int yearOfBirth;
 
     public Student() {
+        this.firstName="Mihailo";
+        this.lastName="Marjanovic";
+        this.yearOfBirth=1989;
     }
 
     public Student(String firstName, String lastName, int yearOfBirth) {
