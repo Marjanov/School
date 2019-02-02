@@ -23,11 +23,13 @@ public class Student {
     public Course getCourse() {
         return course;
     }
-
+   
     public Student() {
         this.firstName="Mihailo";
         this.lastName="Marjanovic";
         this.yearOfBirth=1989;
+        this.course=new Course();
+        this.computer=new Computer();
     }
 
     public Student(String firstName, String lastName, int yearOfBirth) {
